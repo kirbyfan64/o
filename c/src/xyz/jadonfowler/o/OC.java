@@ -1,6 +1,6 @@
 package xyz.jadonfowler.o;
 
-class C {
+class OC {
     public native String parse(Character c);
 
     static { System.loadLibrary("o2-j"); }
