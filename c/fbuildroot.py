@@ -32,6 +32,6 @@ def build(ctx):
     rec = configure(ctx)
     c = rec.c
     java = rec.java
-    jc = java.compile('src/xyz/jadonfowler/o/C.java')
+    jc = java.compile('src/xyz/jadonfowler/o/OC.java')
     c.build_exe('o2', ['o2.c'])
     c.build_exe('tst', ['o2.c'], macros=['UTEST'])
